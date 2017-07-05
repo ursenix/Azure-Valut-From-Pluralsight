@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encrypt With Vault", "AzureKeyVault\Encrypt With Vault.csproj", "{744A6B2B-AD94-45AB-8B3A-D83FF03E7894}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module 2", "Module 2", "{8E5B9247-6EE1-4E44-AED8-BA3E602413BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module 3", "Module 3", "{B7DC7706-A183-460F-AD2F-8FCC00A05CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AES", "AES\AES.csproj", "{29118C72-A1B4-4528-ABDE-8AB146946DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA", "RSA\RSA.csproj", "{BAEE0F62-B231-43F4-AE12-9786FF0E666D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hybrid", "Hybrid\Hybrid.csproj", "{6DAFB4AA-AB90-41FB-A7FC-B439297B56E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Key In Vault With Local Encrypt", "AzureKeyVault2\Key In Vault With Local Encrypt.csproj", "{E430CA69-C5FA-4FA0-B498-B15039896817}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{744A6B2B-AD94-45AB-8B3A-D83FF03E7894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744A6B2B-AD94-45AB-8B3A-D83FF03E7894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744A6B2B-AD94-45AB-8B3A-D83FF03E7894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744A6B2B-AD94-45AB-8B3A-D83FF03E7894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29118C72-A1B4-4528-ABDE-8AB146946DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29118C72-A1B4-4528-ABDE-8AB146946DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29118C72-A1B4-4528-ABDE-8AB146946DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29118C72-A1B4-4528-ABDE-8AB146946DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEE0F62-B231-43F4-AE12-9786FF0E666D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEE0F62-B231-43F4-AE12-9786FF0E666D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEE0F62-B231-43F4-AE12-9786FF0E666D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEE0F62-B231-43F4-AE12-9786FF0E666D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DAFB4AA-AB90-41FB-A7FC-B439297B56E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DAFB4AA-AB90-41FB-A7FC-B439297B56E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DAFB4AA-AB90-41FB-A7FC-B439297B56E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DAFB4AA-AB90-41FB-A7FC-B439297B56E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E430CA69-C5FA-4FA0-B498-B15039896817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E430CA69-C5FA-4FA0-B498-B15039896817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E430CA69-C5FA-4FA0-B498-B15039896817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E430CA69-C5FA-4FA0-B498-B15039896817}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{744A6B2B-AD94-45AB-8B3A-D83FF03E7894} = {B7DC7706-A183-460F-AD2F-8FCC00A05CF1}
+		{29118C72-A1B4-4528-ABDE-8AB146946DCC} = {8E5B9247-6EE1-4E44-AED8-BA3E602413BF}
+		{BAEE0F62-B231-43F4-AE12-9786FF0E666D} = {8E5B9247-6EE1-4E44-AED8-BA3E602413BF}
+		{6DAFB4AA-AB90-41FB-A7FC-B439297B56E6} = {8E5B9247-6EE1-4E44-AED8-BA3E602413BF}
+		{E430CA69-C5FA-4FA0-B498-B15039896817} = {B7DC7706-A183-460F-AD2F-8FCC00A05CF1}
+	EndGlobalSection
+EndGlobal
